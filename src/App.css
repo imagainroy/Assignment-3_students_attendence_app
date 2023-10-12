@@ -2,37 +2,125 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.student-form {
+  text-align: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.student-section {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-around;
+  margin-top: 2rem;
 }
 
-.App-link {
-  color: #61dafb;
+.list {
+  border: 1px solid black;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.all-students {
+  width: 30%;
+  height: auto;
+  min-height: 100vh;
+  background-color: orangered;
+  color: black;
+  list-style-type: decimal;
+  -webkit-box-shadow: inset -8px 3px 21px -4px #000000;
+  -moz-box-shadow: inset -8px 3px 21px -4px #000000;
+  box-shadow: inset -8px 3px 21px -4px #000000;
+  border-radius: 20px;
+
+}
+
+.present-list {
+  width: 30%;
+  height: auto;
+  min-height: 100vh;
+  background-color: orange;
+  color: black;
+  list-style-type: decimal;
+  -webkit-box-shadow: -13.5px 9.5px 4.5px 1.5px #000000;
+  -moz-box-shadow: -13.5px 9.5px 4.5px 1.5px #000000;
+  box-shadow: -13.5px 9.5px 4.5px 1.5px #000000;
+  border: 3px solid black;
+  border-radius: 20px;
+}
+
+.present-list span {
+  margin-right: 20px;
+}
+
+.present-list button {
+  text-align: end;
+  padding: 4px 8px;
+  background-color: red;
+  justify-items: end;
+  border-radius: 10%;
+  color: #000000;
+
+}
+
+.absent-list {
+  width: 30%;
+  height: auto;
+  min-height: 100vh;
+  background-color: RED;
+  color: black;
+  list-style-type: decimal;
+  -webkit-box-shadow: -13.5px 9.5px 4.5px 1.5px #000000;
+  -moz-box-shadow: -13.5px 9.5px 4.5px 1.5px #000000;
+  box-shadow: -13.5px 9.5px 4.5px 1.5px #000000;
+  border-radius: 20px;
+  border: 3px solid rgb(244, 243, 243);
+
+}
+
+.absent-list button {
+  text-align: end;
+  padding: 4px 8px;
+  background-color: orange;
+  justify-items: end;
+  border-radius: 10%;
+
+  color: #000000;
+}
+
+.absent-list span {
+  margin-right: 20px;
+}
+
+.App .student-form input {
+  width: 50%;
+  background-color: transparent;
+  border: 4px solid orangered;
+  border-radius: 5px;
+  height: 35px;
+  color: black;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+  -webkit-box-shadow: inset -8px 3px 21px -4px #000000;
+  -moz-box-shadow: inset -8px 3px 21px -4px #000000;
+  box-shadow: inset -8px 3px 21px -4px #000000;
+}
+
+.App .student-form button {
+  padding: 5px 15px;
+  background: orangered;
+  border-radius: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-transform: uppercase;
+  margin: 0 10px;
+  font-size: 18px;
+  color: #000000;
+  border: 4px black;
+}
+
+.all-students span {
+  width: 100%;
+}
+
+.all-students button {
+  padding: 5px 10px;
+  background-color: olivedrab;
+  margin: 0px 4px;
+  border: 2%;
+
 }
